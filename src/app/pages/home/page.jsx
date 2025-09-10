@@ -601,7 +601,7 @@ return(<div key={item}>
 
 
 
-  <div className=" text-white w-full flex justify-center">
+  <div className=" text-white w-full flex justify-center my-5">
     <div className="space-y-7">
       <h2 className="my-2 font-extrabold">Information</h2>
     
@@ -664,12 +664,12 @@ return(<div key={item}>
 
 
 
-<div className=" h-full  flex xl:flex-nowrap lg:flex-nowrap flex-wrap justify-between gap-x-4 my-10 items-center">
+<div className=" h-full  flex xl:flex-nowrap lg:flex-nowrap   flex-wrap xl:justify-between-between  justify-center gap-x-4 my-10 items-center">
 
- <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap items-center gap-x-10">
+ <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap justify-center items-center gap-x-10">
    <Image src={logo} width={100} height={100} alt="logo"></Image>
 
-  <div className="font-medium space-y-2 text-white">
+  <div className="font-medium space-y-2 text-white xl:text-left lg:text-left md:text-left sm:text-left my-3 text-center">
     <h2>Our Branches
 </h2>
 <p className="text-white">Coimbatore, Chennai, Hyderabad, Goa, Kochi</p>
@@ -679,7 +679,7 @@ return(<div key={item}>
 
 
   <div>
-  <button className="px-4 py-2  cursor-pointer bg-[#B0DD1D] rounded-full font-semibold text-[18px]">Contact us</button>
+  <button className="px-4 py-2  cursor-pointer bg-[#B0DD1D] rounded-full font-semibold text-[18px] my-2">Contact us</button>
 </div>
 
 
