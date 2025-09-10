@@ -34,14 +34,11 @@ import icons6 from "../../../../public/iconthree/6.png";
 import mapicon from '../../../../public/map/map-icon.png';
 
 
-// mao icon2
-import { LuMapPinned } from "react-icons/lu";
+
 
 // logo
 import logo from "../../../../public/logo/logo.png";
 
-
-import SimpleImageSlider from "react-simple-image-slider";
 
 
 
@@ -163,7 +160,7 @@ setProductDataTwos(productDataTwo);
 
         <div
           key={slide.id}
-          className="min-w-[700px] md:min-w-[1300px] h-[500px] flex-shrink-0 snap-center bg-[#F2F4F6] rounded-xl shadow-md p-6 flex items-center gap-6"
+          className="xl:min-w-[700px] md:min-w-[1300px] min-w-[130px] h-[500px] flex-shrink-0 snap-center bg-[#F2F4F6] rounded-xl shadow-md p-6 flex items-center gap-6"
         >
           {/* Left Side: Image */}
           <div className="flex-1 relative left-0">
@@ -187,7 +184,7 @@ setProductDataTwos(productDataTwo);
 
           {/* Right Side: Text + Button */}
           <div className="flex-1 flex flex-col justify-center gap-2">
-            <h1 className="text-2xl font-bold text-gray-900 my-1 text-[60px]">{slide.title}</h1>
+            <h1 className="xl:text-2xl lg:text-xl md:text-[15px]  font-bold text-gray-900 my-1 text-[60px]">{slide.title}</h1>
             <p className="text-gray-600 my-2">{slide.subtitle}</p>
             <button className="mt-2 px-6 py-2 bg-[#B0DD1D] font-semibold w-max  text-white rounded-full">
               {slide.buttonText}
@@ -265,7 +262,7 @@ return(<div key={item}>
 
   <h2 className="font-semibold text-[25px] mt-12 mb-4">Landscape Products</h2>
 
-<div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 w-full">
+<div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 w-full">
 {
   productDataTwos?.map((data, item) => {
 

@@ -8,17 +8,22 @@ import logo from "../../../../public/logo/logo.png"
 
 const Navbar = () => {
     return (
-        <div className="xl:mx-[240px] lg:mx-[100px] md:mx-[50px] mx-[10px]">
-            <div className='flex xl:flex-nowrap lg:flex-nowrap md:flex-nowrap flex-wrap-reverse xl:justify-center lg:justify-center md:justify-center items-center'> 
+        <div className="xl:mx-[240px] lg:mx-[100px] md:mx-[50px] mx-[10px] my-2">
+            <div className='flex justify-content: center;
+   w-full xl:flex-nowrap lg:flex-nowrap flex-wrap items-center'> 
 
-               <div className='w-full xl:space-x-10 lg:space-x-6 md:space-x-4 space-x-3'>
-                <Link href="/">Home</Link>
+  <div className='flex w-full items-center xl:flex-nowrap lg:flex-nowrap flex-wrap-reverse justify-center'>
+
+               <div className='w-full flex justify-center'>
+            <div className='xl:space-x-10 lg:space-x-6 my-2 md:space-x-4 space-x-3'>
+                    <Link href="/">Home</Link>
                 <Link  href="/pages/shop">Shop</Link>
                 <Link  href="/pages/blogs">Blogs</Link>
                 <Link  href="/pages/contact">Contact</Link>
             </div>
+            </div>
 
-            <div className='w-full flex justify-center'>
+            <div className='w-full flex  xl:justify-end lg:justify-end justify-center'>
 
                  <Image
       src={logo}
@@ -28,10 +33,11 @@ const Navbar = () => {
     />
                 
             </div>
+            </div>
 
 
 
-            <div className='flex gap-2 w-full  xl:justify-end lg:justify-end md:justify-end justify-center items-center gap-x-6'>
+            <div className='flex gap-2 w-full  xl:justify-end lg:justify-end  justify-center items-center gap-x-6'>
     
       <div  className=' flex items-center justify-between gap-x-1'>
         <h2>Login</h2>
