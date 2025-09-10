@@ -547,24 +547,17 @@ return(<div key={item}>
 </div>
 
 
-
-
 </div>
 
+{/* Our Branches f section end*/}
 
-{/* Our Branches section end*/}
 
-
-{/* Join Our JF Products */}
+{/* Join Our JF Products*/}
 
 
 <div className="bg-[#002B55] m-5 rounded-md  h-max xl:p-20 lg:p-20 md:p-10 p-5">
 
-
-
-
   <div className="xl:mx-[140px] lg:mx-[140px] md:mx-[100px] mx-[10px]">
-
 
 
   <div className="flex xl:flex-nowrap  flex-wrap gap-x-10 w-full h-full justify-center items-baseline  my-10">
@@ -655,33 +648,7 @@ return(<div key={item}>
   
 
 
-   {/* <div className=" text-white w-full  flex justify-between ">
 
-
-  <div className="space-y-7">
-      <h2 className="my-2 font-extrabold">Helpful</h2>
-    
-    <div>
-      <Link href="">FAQs</Link>
-    </div>
-     <div>
-      <Link href="">Terms & Conditions</Link>
-    </div>
-    <div>
-      <Link href="">Privacy Policy</Link>
-    </div>
-     <div>
-      <Link href="">Shipping Policy</Link>
-    </div>
-
-    <div>
-      <Link href="">My Account</Link>
-    </div>
-
-  </div>
-
-
-  </div> */}
 
 
 
