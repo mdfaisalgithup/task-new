@@ -416,20 +416,20 @@ return(<div key={item}>
 
 
 
-<div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap gap-6 my-10">
+<div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap-reverse justify-center items-center gap-6 my-10">
 
 
 
-<div className="w-[881px] h-[500px]  bg-[#F2F4F6] p-4 rounded-md r">
+<div className="w-[881px]  lg:h-[500px] h-max  bg-[#F2F4F6] p-4 rounded-md flex justify-center items-center">
    <div>
 
-<div className="my-16">
-<Image src={inviteen} width={100} height={100} alt="image" priority></Image>
- <p className="xl:text-[28px] lg:text-[20px] md:text-[15px] text-[10px]">"I had initial issue with stock availability and delivery. Once the product arrived on site the work has completed very fast(400ft.) Value for money and easy to install. Happy with the product</p> 
+<div>
+<Image src={inviteen} width={80} height={80} alt="image" priority></Image>
+ <p className="xl:text-[22px] lg:text-[20px] md:text-[15px] text-[14px]">"I had initial issue with stock availability and delivery. Once the product arrived on site the work has completed very fast(400ft.) Value for money and easy to install. Happy with the product</p> 
 </div>
 
 <div className="flex justify-between items-center">
-  <h2 className="xl:text-[32px] lg:text-[20px] md:text-[15px] text-[10px] font-semibold">- Samuel Varughese</h2>
+  <h2 className="xl:text-[28px] lg:text-[20px] md:text-[15px] text-[14px] font-semibold my-2">- Samuel Varughese</h2>
 <div className="space-x-2">
   <button className="border-1 rounded-full p-3 cursor-pointer">  <GrFormPrevious /></button>
     <button className="border-1 rounded-full p-3 cursor-pointer"><GrFormNext /></button>
@@ -439,6 +439,7 @@ return(<div key={item}>
   
 </div>
    </div>
+
 </div>
 
 <div>
