@@ -360,36 +360,39 @@ return(<div key={item}>
 </div>
 
 
-<div className="blures w-full absolute top-30 z-40 left-0 bottom-0"></div>
+<div className="blures w-full absolute top-[50%] bottom-0 z-40 left-0"></div>
  </div>
 
  {/* Trusted by over 6K+ customers */}
 
-<div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] my-8">
-<div className="text-center mb-[100px]">
+
+
+ {/* why us */}
+
+<div className="2xl:[240px] xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] my-8">
+<div className="text-center ">
   <h2 className="text-[30px] font-semibold my-2">Why Us</h2>
   <p className="my-4">We specialize in delivering durable and innovative fencing solutions built to last. With a focus on quality and trust, we help secure spaces across industries and communities.</p>
 </div>
 
 
- {/* Trusted by over 6K+ customers end*/}
 
-<div className="flex xl:flex-nowrap  flex-wrap justify-center gap-8 h-full">
+<div className="flex xl:flex-nowrap  flex-wrap justify-center gap-8 h-full my-20  w-full">
 
-  <div className="w-[400px] h-max space-y-4 bg-[#F2F4F6] rounded-md p-10">
+  <div className="w-full h-max space-y-4 bg-[#F2F4F6] rounded-md p-10">
   <Image className="" src={icon1} width={70} height={70} alt="image"></Image>
 
   <h2 className="xl:text-[25px] lg:text-[20px] md:text-[18px] text-[15px]  font-semibold">Unmatched Durability with Corrosion-Free Technology</h2>
   <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px]">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
 </div>
 
-<div className="w-[400px] h-max space-y-4 color2 rounded-md p-10 xl:mt-[-50px] mt-[10px]  text-white">
+<div className="w-full h-max space-y-4 color2 rounded-md p-10 xl:mt-[-50px] mt-[0px]  text-white">
   <Image className="text-[40px] text-white" src={icon3} width={70} height={70} alt="image"></Image>
   <h2 className=" font-semibold xl:text-[17px] lg:text-[17px] md:text-[18px] text-[15px] ">Unmatched Durability with Corrosion-Free Technology</h2>
   <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
 </div>
 
-<div className="w-[400px] h-max space-y-4 bg-[#F2F4F6] rounded-md p-10 ">
+<div className="w-full h-max space-y-4 bg-[#F2F4F6] rounded-md p-10 ">
  <Image className=" text-white" src={icon2} width={70} height={70} alt="image"></Image>
   <h2 className="xl:text-[25px] lg:text-[17px] md:text-[18px] text-[15px] font-semibold">Unmatched Durability with Corrosion-Free Technology</h2>
   <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
@@ -420,7 +423,7 @@ return(<div key={item}>
 
 
 
-<div className="w-[881px]  lg:h-[500px] h-max  bg-[#F2F4F6] p-4 rounded-md flex justify-center items-center">
+<div className="w-full  lg:h-[500px] h-max  bg-[#F2F4F6] p-4 rounded-md flex justify-center items-center">
    <div>
 
 <div>
@@ -443,7 +446,7 @@ return(<div key={item}>
 </div>
 
 <div>
-   <Image className="h-[500px] object-center" src={img} width={300} height={668} alt="image" priority></Image>
+   <Image className="xl:h-[500px] lg:h-[500px] md:h-[400px] h-[280px] xl:w-[400px] lg:w-[400px] md:w-[300px] w-[100px]object-center" src={img} width={300} height={668} alt="image" priority></Image>
 </div>
 
  </div>
@@ -503,7 +506,8 @@ return(<div key={item}>
 
 <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap gap-x-4 justify-center items-center">
 
-    <div className="rounded-md bg-[#002B55]  w-full  text-center h-[500px] flex justify-center items-center relative">
+    <div className="rounded-md bg-[#002B55]  w-full  text-center h-[500px] flex justify-center items-center">
+
 <div className="w-full px-10 rounded-md space-y-4">
     <h2 className="text-[30px] font-semibold text-[#fff]">Contact Us</h2>
  <div>
@@ -513,15 +517,15 @@ return(<div key={item}>
   <div><input className="placeholder-[#fff]  outline-0 rounded-md bg-[#1A4166] text-white p-2 w-full" type="text" placeholder="Phone *" /></div>
 <textarea className=" placeholder-[#fff] outline-0 rounded-md bg-[#1A4166] text-white p-2 w-full" placeholder="Write message"></textarea>
 <div>
-  <button className="px-4 py-2  cursor-pointer bg-[#B0DD1D] rounded-full font-semibold text-[18px]">Submit</button>
+  <button className="px-4 py-2  cursor-pointer bg-[#B0DD1D] rounded-full font-semibold text-[18px] ">Submit</button>
 </div>
 </div>
 
 
 
-<div className="blures absolute bottom-0">
 
-</div>
+
+
 </div>
 
 
@@ -577,7 +581,7 @@ return(<div key={item}>
     <input className="placeholder-[#fff]  outline-0 rounded-md bg-[#1A4166] text-white p-2 w-full" type="text" placeholder="Enter your email" />
     </div>
 
-<div className="flex gap-x-2"><input type="checkbox" name="" id="check" /><label for="check" className="text-white">Yes, subscribe me to your newsletter.</label>
+<div className="flex gap-x-2"><input type="checkbox" name="" id="check" /><label htmlFor="check" className="text-white">Yes, subscribe me to your newsletter.</label>
 
 
 </div>
