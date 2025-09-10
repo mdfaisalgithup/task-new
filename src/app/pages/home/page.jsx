@@ -62,7 +62,8 @@ const sliderRef = useRef(null);
         {name: "JF Barbed Wire- 270 GSM", price: "₹4,995.00", description: "The perfact Blend of Greenery", cardImage: "https://i.ibb.co.com/vCtzwV5c/Group-424.png"}, 
         {name: "FGC RustFree Fencing Poles", price: "₹499.00 – ₹1,589.00", description: "The perfact Blend of Greenery", cardImage: "https://i.ibb.co.com/XfXGJwXQ/image-5.png"}, 
         {name: "GI Poultry Mesh", price: "₹1,260.00 – ₹10,750.00", description: "The perfact Blend of Greenery", cardImage: "https://i.ibb.co.com/99DG2nwZ/image-4.png"},
-        {name: "JF Bluelink Mesh", price: "₹3,067.50 – ₹6,362.50", description: "The perfact Blend of Greenery", cardImage: "https://i.ibb.co.com/W1nVDFy/image-3.png"}, ]
+                {name: "GI Poultry Mesh", price: "₹1,260.00 – ₹10,750.00", description: "The perfact Blend of Greenery", cardImage: "https://i.ibb.co.com/99DG2nwZ/image-4.png"},
+        ]
 
 
     // product Data
@@ -135,6 +136,20 @@ setProductDataTwos(productDataTwo);
   const scrollRight = () => {
     sliderRef.current.scrollBy({ left: 300, behavior: "smooth" });
   };
+
+
+const next = () => {
+
+const dataTotal = productData.length;
+
+
+
+console.log(dataTotal)
+
+}
+
+
+
 
     return(<div>
       
@@ -247,7 +262,7 @@ return(<div key={item}>
 </div>
 
 <div className="absolute right-0 top-50 border-1 p-2 rounded-full">
-    <GrFormNext />
+    <button className="cursor-pointer" onClick={() => next()}><GrFormNext /></button>
 </div>
 
 </div>
@@ -359,24 +374,25 @@ return(<div key={item}>
 
  {/* Trusted by over 6K+ customers end*/}
 
-<div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap flex-wrap gap-8">
-  <div className="w-[400px] min-h-[501px] space-y-4 bg-[#F2F4F6] rounded-md p-10">
+<div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap justify-center gap-8">
+
+  <div className="w-[400px] h-max space-y-4 bg-[#F2F4F6] rounded-md p-10">
   <Image className="" src={icon1} width={70} height={70} alt="image"></Image>
 
-  <h2 className="xl:text-[25px] lg:text-[17px] md:text-[12px] text-[11px]  font-semibold">Unmatched Durability with Corrosion-Free Technology</h2>
-  <p className="xl:text-[17px] lg:text-[17px] md:text-[12px] text-[11px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
+  <h2 className="xl:text-[25px] lg:text-[20px] md:text-[18px] text-[15px]  font-semibold">Unmatched Durability with Corrosion-Free Technology</h2>
+  <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px]">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
 </div>
 
-<div className="w-[400px] h-[501px] space-y-4 color2 rounded-md p-10 xl:mt-[-50px] lg:mt-[-50px] mt-[10px]  text-white">
+<div className="w-[400px] h-max space-y-4 color2 rounded-md p-10 xl:mt-[-50px] lg:mt-[-50px] mt-[10px]  text-white">
   <Image className="text-[40px] text-white" src={icon3} width={70} height={70} alt="image"></Image>
-  <h2 className=" font-semibold xl:text-[17px] lg:text-[17px] md:text-[12px] text-[11px] ">Unmatched Durability with Corrosion-Free Technology</h2>
-  <p className="xl:text-[17px] lg:text-[17px] md:text-[12px] text-[11px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
+  <h2 className=" font-semibold xl:text-[17px] lg:text-[17px] md:text-[18px] text-[15px] ">Unmatched Durability with Corrosion-Free Technology</h2>
+  <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
 </div>
 
-<div className="w-[400px] h-[501px] space-y-4 bg-[#F2F4F6] rounded-md p-10 ">
+<div className="w-[400px] h-max space-y-4 bg-[#F2F4F6] rounded-md p-10 ">
  <Image className=" text-white" src={icon2} width={70} height={70} alt="image"></Image>
-  <h2 className="xl:text-[25px] lg:text-[17px] md:text-[12px] text-[11px]  font-semibold">Unmatched Durability with Corrosion-Free Technology</h2>
-  <p className="xl:text-[17px] lg:text-[17px] md:text-[12px] text-[11px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
+  <h2 className="xl:text-[25px] lg:text-[17px] md:text-[18px] text-[15px] font-semibold">Unmatched Durability with Corrosion-Free Technology</h2>
+  <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
 </div>
 
 </div>
