@@ -692,7 +692,7 @@ return(<div key={item}>
 
 
 
-<div className=" h-full  flex xl:flex-nowrap lg:flex-nowrap   flex-wrap xl:justify-between-between  justify-center gap-x-4 my-10 items-center">
+<div className=" h-full  flex xl:flex-nowrap lg:flex-nowrap   flex-wrap xl:justify-between  justify-center gap-x-4 my-10 items-center">
 
  <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap justify-center items-center gap-x-10">
    <Image src={logo} width={100} height={100} alt="logo"></Image>
