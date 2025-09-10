@@ -374,7 +374,7 @@ return(<div key={item}>
 
  {/* Trusted by over 6K+ customers end*/}
 
-<div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap justify-center gap-8">
+<div className="flex xl:flex-nowrap  flex-wrap justify-center gap-8 h-full">
 
   <div className="w-[400px] h-max space-y-4 bg-[#F2F4F6] rounded-md p-10">
   <Image className="" src={icon1} width={70} height={70} alt="image"></Image>
@@ -383,7 +383,7 @@ return(<div key={item}>
   <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px]">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
 </div>
 
-<div className="w-[400px] h-max space-y-4 color2 rounded-md p-10 xl:mt-[-50px] lg:mt-[-50px] mt-[10px]  text-white">
+<div className="w-[400px] h-max space-y-4 color2 rounded-md p-10 xl:mt-[-50px] mt-[10px]  text-white">
   <Image className="text-[40px] text-white" src={icon3} width={70} height={70} alt="image"></Image>
   <h2 className=" font-semibold xl:text-[17px] lg:text-[17px] md:text-[18px] text-[15px] ">Unmatched Durability with Corrosion-Free Technology</h2>
   <p className="xl:text-[15px] lg:text-[15px] md:text-[14px] text-[12px] ">Our JF-270 barbed wire features a robust 270 GSM zinc coating, ensuring superior resistance against rust and corrosion. Paired with stainless steel binding wire, our fencing solutions are designed to withstand harsh environmental conditions, offering longevity and reliability.</p>
