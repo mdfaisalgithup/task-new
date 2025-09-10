@@ -563,11 +563,11 @@ return(<div key={item}>
 
 
 
-  <div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px]">
+  <div className="xl:mx-[140px] lg:mx-[140px] md:mx-[100px] mx-[10px]">
 
 
 
-  <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap gap-x-10 w-full justify-center items-baseline h-full my-10">
+  <div className="flex xl:flex-nowrap  flex-wrap gap-x-10 w-full h-full justify-center items-baseline  my-10">
 
 
 
@@ -584,7 +584,7 @@ return(<div key={item}>
     <input className="placeholder-[#fff]  outline-0 rounded-md bg-[#1A4166] text-white p-2 w-full" type="text" placeholder="Enter your email" />
     </div>
 
-<div className="flex gap-x-2"><input type="checkbox" name="" id="" /><label className="text-white">Yes, subscribe me to your newsletter.</label>
+<div className="flex gap-x-2"><input type="checkbox" name="" id="check" /><label for="check" className="text-white">Yes, subscribe me to your newsletter.</label>
 
 
 </div>
@@ -602,7 +602,9 @@ return(<div key={item}>
 
 
   <div className=" text-white w-full flex justify-center my-5">
-    <div className="space-y-7">
+
+  <div className="w-full flex justify-center">
+      <div className="space-y-7 ">
       <h2 className="my-2 font-extrabold">Information</h2>
     
     <div>
@@ -622,12 +624,38 @@ return(<div key={item}>
       <Link href="">Contact</Link>
     </div>
     </div>
+  </div>
+ <div className="w-full flex justify-center">
+
+   <div className="space-y-7">
+      <h2 className="my-2 font-extrabold">Helpful</h2>
+    
+    <div>
+      <Link href="">FAQs</Link>
+    </div>
+     <div>
+      <Link href="">Terms & Conditions</Link>
+    </div>
+    <div>
+      <Link href="">Privacy Policy</Link>
+    </div>
+     <div>
+      <Link href="">Shipping Policy</Link>
+    </div>
+
+    <div>
+      <Link href="">My Account</Link>
+    </div>
+
+  </div>
+ </div>
+    
 
   </div>
   
 
 
-   <div className=" text-white w-full  flex justify-center">
+   {/* <div className=" text-white w-full  flex justify-between ">
 
 
   <div className="space-y-7">
@@ -653,7 +681,7 @@ return(<div key={item}>
   </div>
 
 
-  </div>
+  </div> */}
 
 
 
