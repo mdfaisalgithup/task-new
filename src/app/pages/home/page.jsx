@@ -559,7 +559,7 @@ return(<div key={item}>
 {/* Join Our JF Products*/}
 
 
-<div className="bg-[#002B55] m-5 rounded-md  h-max xl:p-20 lg:p-20 md:p-10 p-5">
+<div className="bg-[#002B55] xl:m-5 lg:m-5 md:m-5 m-1 rounded-md  h-max xl:p-20 lg:p-20 md:p-10 p-5">
 
   <div className="xl:mx-[140px] lg:mx-[140px] md:mx-[100px] mx-[10px]">
 
